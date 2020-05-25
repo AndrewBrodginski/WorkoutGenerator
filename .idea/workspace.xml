@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9f76212-2760-48b7-b4cb-eee504d7ed63" name="Default Changelist" comment="" />
+    <list default="true" id="e9f76212-2760-48b7-b4cb-eee504d7ed63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +63,7 @@
     <property name="project.structure.proportion" value="0.1575" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="ts.external.directory.path" value="D:\Github Projects\WorkoutGenerator\Workout-Generator-UI\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (Workout-Generator-UI)">
+  <component name="RunManager" selected="Spring Boot.WorkoutgeneratorserviceApplication">
     <configuration name="All in weakgeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weakgeak" />
       <option name="PACKAGE_NAME" value="" />
@@ -231,7 +234,7 @@
       <workItem from="1587784419114" duration="5120000" />
       <workItem from="1590437092275" duration="251000" />
       <workItem from="1590438463421" duration="419000" />
-      <workItem from="1590438920119" duration="2103000" />
+      <workItem from="1590438920119" duration="4132000" />
     </task>
     <task id="LOCAL-00001" summary="Removing initial commit">
       <created>1587675723772</created>
@@ -261,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590438848579</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added new modules to work with gradle">
+      <created>1590442209659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590442209659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +282,8 @@
     <MESSAGE value="Adding Weak Geak Service and UI" />
     <MESSAGE value="Added service package structure with classes" />
     <MESSAGE value="Removing to replace with Gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing to replace with Gradle" />
+    <MESSAGE value="Added new modules to work with gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new modules to work with gradle" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Project_Structure" timestamp="1587780834731">
@@ -303,30 +314,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587853832015" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1590438847774">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1590442208076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590438847774" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590442208076" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1587784343525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587784343525" />
-    <state width="1493" height="356" key="GridCell.Tab.0.bottom" timestamp="1587783387916">
+    <state width="1024" height="471" key="GridCell.Tab.0.bottom" timestamp="1590442533497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="356" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587783387916" />
-    <state width="1493" height="356" key="GridCell.Tab.0.center" timestamp="1587783387915">
+    <state width="1024" height="471" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590442533497" />
+    <state width="1024" height="471" key="GridCell.Tab.0.center" timestamp="1590442533496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="356" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587783387915" />
-    <state width="1493" height="356" key="GridCell.Tab.0.left" timestamp="1587783387915">
+    <state width="1024" height="471" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590442533496" />
+    <state width="1024" height="471" key="GridCell.Tab.0.left" timestamp="1590442533496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="356" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587783387915" />
-    <state width="1493" height="356" key="GridCell.Tab.0.right" timestamp="1587783387916">
+    <state width="1024" height="471" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590442533496" />
+    <state width="1024" height="471" key="GridCell.Tab.0.right" timestamp="1590442533496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="356" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587783387916" />
+    <state width="1024" height="471" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590442533496" />
+    <state width="1024" height="471" key="GridCell.Tab.1.bottom" timestamp="1590442533498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="471" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590442533498" />
+    <state width="1024" height="471" key="GridCell.Tab.1.center" timestamp="1590442533497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="471" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590442533497" />
+    <state width="1024" height="471" key="GridCell.Tab.1.left" timestamp="1590442533497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="471" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590442533497" />
+    <state width="1024" height="471" key="GridCell.Tab.1.right" timestamp="1590442533498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="471" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590442533498" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1587784347781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
