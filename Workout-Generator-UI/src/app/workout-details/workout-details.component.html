@@ -1,0 +1,19 @@
+<div *ngIf="workout">
+  <div>
+    <label>Name: </label> {{workout.name}}
+  </div>
+  <div>
+    <label>Type: </label> {{workout.type}}
+  </div>
+  <div>
+    <label>Active: </label> {{workout.olympic}}
+  </div>
+
+  <span class="button is-small btn-primary" *ngIf='workout.olympic' (click)='updateActive(false)'>Inactive</span>
+
+  <span class="button is-small btn-primary" *ngIf='!workout.olympic' (click)='updateActive(true)'>Active</span>
+
+  <span class="button is-small btn-danger" (click)='deleteWorkout()'>Delete</span>
+
+  <hr />
+</div>

@@ -47,10 +47,10 @@ public class WorkoutController {
 
     @GetMapping("/workouts/{id}")
     public ResponseEntity<Workout> getCustomerById(@PathVariable("id") long id) {
-        Optional<Workout> customerData = repository.findById(id);
+        Optional<Workout> workoutData = repository.findById(id);
 
-        if (customerData.isPresent()) {
-            return new ResponseEntity<>(customerData.get(), HttpStatus.OK);
+        if (workoutData.isPresent()) {
+            return new ResponseEntity<>(workoutData.get(), HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }

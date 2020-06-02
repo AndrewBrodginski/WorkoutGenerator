@@ -1,14 +1,13 @@
 package com.workout.generator.service.workoutgeneratorservice;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WorkoutgeneratorserviceApplication {
+public class WorkoutGeneratorServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WorkoutgeneratorserviceApplication.class, args);
+        SpringApplication.run(WorkoutGeneratorServiceApplication.class, args);
     }
 
 }

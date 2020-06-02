@@ -1,0 +1,8 @@
+<h3>Workouts</h3>
+<div *ngFor="let workout of workouts | async" style="width: 300px;">
+  <app-workout-details [workout] = 'workout'></app-workout-details>
+</div>
+
+<div>
+  <button type="button" class="button btn-danger" (click)='deleteWorkouts()'>Delete All</button>
+</div>

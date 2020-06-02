@@ -1,24 +1,23 @@
 package com.workout.generator.service.workoutgeneratorservice.service;
 
 import com.workout.generator.service.workoutgeneratorservice.data.Workout;
-import com.workout.generator.service.workoutgeneratorservice.data.WorkoutCycle;
+
 import com.workout.generator.service.workoutgeneratorservice.repo.WorkoutRepository;
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-public class WorkoutCycleService {
+@Service
+public class WorkoutService {
 
-    @Autowired
-    WorkoutRepository workoutRepository;
+    private final WorkoutRepository workoutRepository;
+
+    public WorkoutService(WorkoutRepository workoutRepository) {
+        this.workoutRepository = workoutRepository;
+    }
 
     public List<Workout> getAllWorkoutByType(String type){
        return workoutRepository.findAllByType(type);
     }
 
-    public WorkoutCycle getWorkoutCycle(){
-        WorkoutCycle workoutCycle = new WorkoutCycle();
-
-        return workoutCycle;
-    }
 
 }
