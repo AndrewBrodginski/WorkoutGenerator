@@ -1,0 +1,1 @@
+INSERT INTO Workout(ID,name,type,olympic) VALUES(hibernate_sequence.nextval,'Bench Press','CHEST', 'TRUE');

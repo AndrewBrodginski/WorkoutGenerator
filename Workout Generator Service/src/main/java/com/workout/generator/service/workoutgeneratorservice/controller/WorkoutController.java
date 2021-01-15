@@ -100,18 +100,5 @@ public class WorkoutController {
         }
     }
 
-    @PutMapping("/workouts/{id}")
-    public ResponseEntity<Workout> updateCustomer(@PathVariable("id") long id, @RequestBody Workout workout) {
-        Optional<Workout> workoutData = repository.findById(id);
 
-        if (workoutData.isPresent()) {
-            Workout _workout = workoutData.get();
-            _workout.setName(workout.getName());
-            _workout.setType(workout.getType());
-            _workout.setOlympic(workout.isOlympic());
-            return new ResponseEntity<>(repository.save(_workout), HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
 }

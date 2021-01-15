@@ -20,7 +20,7 @@ public class Workout {
     private String name;
 
     @Column(name = "type")
-    private WorkoutType type;
+    private String type;
 
     @Column(name = "olympic")
     private boolean olympic;
@@ -28,7 +28,7 @@ public class Workout {
     public Workout() {
     }
 
-    public Workout(String name, WorkoutType type, boolean olympic) {
+    public Workout(String name, String type, boolean olympic) {
         this.name = name;
         this.type = type;
         this.olympic = olympic;
@@ -46,11 +46,11 @@ public class Workout {
         return this.name;
     }
 
-    public WorkoutType getType() {
+    public String getType() {
         return type;
     }
 
-    public void setType(WorkoutType type) {
+    public void setType(String type) {
         this.type = type;
     }
 
