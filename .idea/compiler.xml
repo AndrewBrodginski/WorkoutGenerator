@@ -15,6 +15,9 @@
     <bytecodeTargetLevel>
       <module name="Weak Geak Service" target="11" />
       <module name="weakgeak" target="11" />
+      <module name="Workout-Generator-Service" target="11" />
+      <module name="Workout-Generator-Service.main" target="11" />
+      <module name="Workout-Generator-Service.test" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
