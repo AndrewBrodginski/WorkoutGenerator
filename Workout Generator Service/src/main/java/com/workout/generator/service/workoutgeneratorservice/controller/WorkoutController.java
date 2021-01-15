@@ -23,8 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class WorkoutController {
 
-    final
-    WorkoutRepository repository;
+    final WorkoutRepository repository;
 
     public WorkoutController(WorkoutRepository repository) {
         this.repository = repository;
