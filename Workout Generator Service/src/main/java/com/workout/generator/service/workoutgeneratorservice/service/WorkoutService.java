@@ -38,4 +38,6 @@ public class WorkoutService {
     public List<Workout> findAll() {
         return workoutRepository.findAll();
     }
+
+
 }
