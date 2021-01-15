@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9f76212-2760-48b7-b4cb-eee504d7ed63" name="Default Changelist" comment="Added new classes and packages">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e9f76212-2760-48b7-b4cb-eee504d7ed63" name="Default Changelist" comment="Added more functionality to WorkoutService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workout Generator Service/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workout Generator Service/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout Generator Service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout Generator Service/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout Generator Service/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout Generator Service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Workout Generator Service/src/main/java/com/workout/generator/service/workoutgeneratorservice/controller/WorkoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/src/main/java/com/workout/generator/service/workoutgeneratorservice/controller/WorkoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout Generator Service/src/main/java/com/workout/generator/service/workoutgeneratorservice/repo/WorkoutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/src/main/java/com/workout/generator/service/workoutgeneratorservice/repo/WorkoutRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Workout Generator Service/src/main/java/com/workout/generator/service/workoutgeneratorservice/service/WorkoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/src/main/java/com/workout/generator/service/workoutgeneratorservice/service/WorkoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workout Generator Service/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Workout Generator Service/src/main/resources/import.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,7 @@
       <workItem from="1610728834006" duration="6406000" />
       <workItem from="1610740749197" duration="357000" />
       <workItem from="1610741141297" duration="51000" />
-      <workItem from="1610742339618" duration="1725000" />
+      <workItem from="1610742339618" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="Removing initial commit">
       <created>1587675723772</created>
@@ -344,17 +344,58 @@
     <MESSAGE value="Added service package structure with classes" />
     <MESSAGE value="Removing to replace with Gradle" />
     <MESSAGE value="Added new modules to work with gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new modules to work with gradle" />
+    <MESSAGE value="Added more functionality to WorkoutService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more functionality to WorkoutService" />
   </component>
   <component name="WindowStateProjectService">
     <state x="394" y="11" key="#WorkoutGeneratorServiceApplication" timestamp="1610742736259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="394" y="11" key="#WorkoutGeneratorServiceApplication/0.0.1536.824@0.0.1536.824" timestamp="1610742736259" />
+    <state x="394" y="11" key="#WorkoutGeneratorServiceApplication_(1)" timestamp="1610745015011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="394" y="11" key="#WorkoutGeneratorServiceApplication_(1)/0.0.1536.824@0.0.1536.824" timestamp="1610745015011" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610742361639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1610742361639" />
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1610746405681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610746405681" />
+    <state width="1201" height="260" key="GridCell.Tab.0.bottom" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
+    <state width="1201" height="260" key="GridCell.Tab.0.center" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
+    <state width="1201" height="260" key="GridCell.Tab.0.left" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
+    <state width="1201" height="260" key="GridCell.Tab.0.right" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
+    <state width="1201" height="260" key="GridCell.Tab.1.bottom" timestamp="1610746286347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610746286347" />
+    <state width="1201" height="260" key="GridCell.Tab.1.center" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
+    <state width="1201" height="260" key="GridCell.Tab.1.left" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
+    <state width="1201" height="260" key="GridCell.Tab.1.right" timestamp="1610746286346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1201" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610746286346" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1610742773832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

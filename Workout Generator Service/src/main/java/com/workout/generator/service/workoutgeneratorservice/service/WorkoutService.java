@@ -19,7 +19,23 @@ public class WorkoutService {
        return workoutRepository.findAllByType(type);
     }
 
+    public void deleteAll() {
+        workoutRepository.deleteAll();
+    }
 
+    public void deleteById(long id) {
+        workoutRepository.findById(id);
+    }
 
+    public Workout save(Workout workout) {
+        return workoutRepository.save(workout);
+    }
 
+    public Workout findById(long id) {
+        return workoutRepository.findWorkoutById(id);
+    }
+
+    public List<Workout> findAll() {
+        return workoutRepository.findAll();
+    }
 }

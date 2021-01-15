@@ -8,4 +8,8 @@ public interface WorkoutRepository extends CrudRepository<Workout, Long> {
 
     List<Workout> findAllByType(String type);
 
+    Workout findWorkoutById(Long id);
+
+    List<Workout> findAll();
+
 }
