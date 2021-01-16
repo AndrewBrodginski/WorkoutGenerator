@@ -24,7 +24,7 @@ public class WorkoutController {
         this.workoutService = workoutService;
     }
 
-    @GetMapping("/getAllWorkouts")
+    @GetMapping("/workouts/all")
     public ResponseEntity<List<Workout>> getAllWorkouts() {
         List<Workout> workouts = new ArrayList<>();
         try {
@@ -50,16 +50,6 @@ public class WorkoutController {
         }
     }
 
-    @PostMapping(value = "/workouts")
-    public ResponseEntity<Workout> postWorkout(@RequestBody Workout workout) {
-        try {
-            Workout newWorkout = workoutService.save(new Workout(workout.getName(), workout.getType(), workout.isOlympic()));
-            return new ResponseEntity<>(newWorkout, HttpStatus.CREATED);
-        } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.EXPECTATION_FAILED);
-        }
-    }
-
     @DeleteMapping("/workouts/{id}")
     public ResponseEntity<HttpStatus> deleteWorkout(@PathVariable("id") long id) {
         try {
@@ -70,7 +60,7 @@ public class WorkoutController {
         }
     }
 
-    @DeleteMapping("/workouts")
+    @DeleteMapping("/workouts/all")
     public ResponseEntity<HttpStatus> deleteAllWorkouts() {
         try {
             workoutService.deleteAll();
@@ -80,6 +70,5 @@ public class WorkoutController {
         }
 
     }
-
 
 }
